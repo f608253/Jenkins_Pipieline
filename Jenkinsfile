@@ -9,7 +9,7 @@ pipeline {
                         }
                   }
 
-               stage Testing stage') {
+               stage ('Testing stage') {
                     steps {
                            withmaven(maven : 'apache-maven-3.5.3'){
                              sh 'mvn test'
